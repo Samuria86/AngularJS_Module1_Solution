@@ -1,0 +1,67 @@
+
+
+.section {
+  background-color: #00BFFF;
+  flex: 1;
+
+  
+}
+
+.section p {
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.container {
+  margin-top: 30px;
+  
+}
+
+.navbar-nav .nav-link {
+  padding: 0;
+  border: 1px solid black;
+  background-color: #F8F8FF;
+}
+
+.section a {
+  position: absolute;
+  bottom: 0;
+}
+
+.col-sm-6, .col-sm-12 { 
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+
+
+/*********************** Small Devices only ***********************/
+
+@media (min-width: 768px) {
+  .navbar-nav {
+  visibility: hidden;
+  }
+
+  .section a {
+    visibility: hidden;
+  }
+
+
+}
+
+/*********************** Extra Small Devices only ******************/
+
+@media (max-width: 767px) {
+
+body > a {
+  visibility: hidden;
+}
+
+}
+
+
+
+
